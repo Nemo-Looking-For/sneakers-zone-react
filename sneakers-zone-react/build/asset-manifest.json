@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/sneakers-zone-react/static/css/main.b5f1bdaf.css",
+    "main.js": "/sneakers-zone-react/static/js/main.5cf2238e.js",
+    "index.html": "/sneakers-zone-react/index.html",
+    "main.b5f1bdaf.css.map": "/sneakers-zone-react/static/css/main.b5f1bdaf.css.map",
+    "main.5cf2238e.js.map": "/sneakers-zone-react/static/js/main.5cf2238e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b5f1bdaf.css",
+    "static/js/main.5cf2238e.js"
+  ]
+}
