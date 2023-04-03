@@ -25,7 +25,7 @@ function Drawer({ onClose, onRemove, items = [] }) {
                             ))}
                         </div>
 
-                        <div className='cartTotalBlock'>
+                        <div className={styles.cartTotalBlock}>
                             <ul>
                                 <li>
                                     <span>Итого:</span>
@@ -38,18 +38,19 @@ function Drawer({ onClose, onRemove, items = [] }) {
                                     <b>1074 руб.</b>
                                 </li>
                             </ul>
-                            <div className='greenButton'>
+                            <div className={styles.greenButton}>
                                 <button>Оформить заказ</button>
+                                
                             </div>
                         </div>
                     </div> :
                         <div>
-                            <div className='cartEmpty d-flex align-center justify-center flex-column flex'>
+                            <div className={styles.cartEmpty}>
                                 <img className='mb-20' width={120} height={120} src={Cart_empty} alt='Cart Empty' />
                                 <h2>В Корзине Пусто</h2>
                                 <p className='opacity-6'>Добавьте хотя бы одну пару кроссовок в корзину, чтобы совершить заказ</p>
                             </div>
-                            <div className='greenButton'>
+                            <div className={styles.greenButton}>
                                 <button onClick={onClose}>Вернуться назад</button>
                             </div>
                         </div>

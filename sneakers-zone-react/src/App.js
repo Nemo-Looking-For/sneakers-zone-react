@@ -30,9 +30,10 @@ function App() {
   };
 
   const onRemoveItem = (id) => {
-    axios.delete(`https://64257b9c7ac292e3cf01f720.mockapi.io/cart${id}`);
+    axios.delete('https://64257b9c7ac292e3cf01f720.mockapi.io/cart',{id});
     setCartItems((prev) => prev.filter((item) => item.id !== id));
   };
+
 
   const onChangeSearchInput = (even) => {
     setSearchValue(even.target.value);
@@ -64,6 +65,7 @@ function App() {
                 name={item.name}
                 price={item.price}
                 imageUrl={item.imageUrl}
+                //onFavorite={(obj) => onAddToFavorite(obj)}
                 onPlus={(obj) => onAddToCart(obj)}
               />
             ))}
