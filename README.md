@@ -1,2 +1,2 @@
-# sneakers-cone
+# sneakers-zone
 ## Магазин баскетбольных кроссовок
